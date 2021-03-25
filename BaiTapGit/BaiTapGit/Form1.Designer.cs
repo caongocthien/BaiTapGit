@@ -30,33 +30,33 @@ namespace BaiTapGit
         private void InitializeComponent()
         {
             this.label1 = new System.Windows.Forms.Label();
-            this.txtUserName = new System.Windows.Forms.TextBox();
+            this.txtPass = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(241, 47);
+            this.label1.Location = new System.Drawing.Point(188, 255);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(30, 15);
+            this.label1.Size = new System.Drawing.Size(36, 20);
             this.label1.TabIndex = 0;
-            this.label1.Text = "User";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
+            this.label1.Text = "Pass";
             // 
-            // txtUserName
+            // txtPass
             // 
-            this.txtUserName.Location = new System.Drawing.Point(332, 44);
-            this.txtUserName.Name = "txtUserName";
-            this.txtUserName.Size = new System.Drawing.Size(100, 23);
-            this.txtUserName.TabIndex = 1;
+            this.txtPass.Location = new System.Drawing.Point(428, 255);
+            this.txtPass.Name = "txtPass";
+            this.txtPass.Size = new System.Drawing.Size(125, 27);
+            this.txtPass.TabIndex = 1;
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.txtUserName);
+            this.ClientSize = new System.Drawing.Size(914, 600);
+            this.Controls.Add(this.txtPass);
             this.Controls.Add(this.label1);
+            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
@@ -67,7 +67,7 @@ namespace BaiTapGit
         #endregion
 
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox txtUserName;
+        private System.Windows.Forms.TextBox txtPass;
     }
 }
 
